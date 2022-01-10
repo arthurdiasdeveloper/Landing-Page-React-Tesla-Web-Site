@@ -1,0 +1,16 @@
+"use strict";
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+exports.__esModule = true;
+exports.Footer = exports.Burger = exports.Logo = exports.Header = exports.Container = void 0;
+var styled_components_1 = require("styled-components");
+var IconSVG_1 = require("./IconSVG");
+var framer_motion_1 = require("framer-motion");
+exports.Container = styled_components_1["default"].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  position: sticky;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n"], ["\n  position: sticky;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n"])));
+exports.Header = styled_components_1["default"].header(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n\n  padding: 0 20px;\n  min-height: 52px;\n"], ["\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n\n  padding: 0 20px;\n  min-height: 52px;\n"])));
+exports.Logo = styled_components_1["default"](IconSVG_1.LogoSVG)(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  height: 17px;\n  cursor: pointer;\n"], ["\n  height: 17px;\n  cursor: pointer;\n"])));
+exports.Burger = styled_components_1["default"](IconSVG_1.BurgerSVG)(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  width: 24px;\n  height: 24px;\n  cursor: pointer;\n\n  padding-right: 5px;\n"], ["\n  width: 24px;\n  height: 24px;\n  cursor: pointer;\n\n  padding-right: 5px;\n"])));
+exports.Footer = styled_components_1["default"](framer_motion_1.motion.footer)(templateObject_5 || (templateObject_5 = __makeTemplateObject(["\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  right: 0;\n\n  ul {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n\n    li {\n      list-style: none;\n\n      font-size: 14px;\n\n      & + li {\n        margin: 10px 0 0;\n      }\n\n      a {\n        text-decoration: none;\n        color: #393c41;\n\n        &:hover {\n          color: #000;\n        }\n      }\n    }\n  }\n\n  margin-bottom: 30px;\n\n  @media (min-width: 600px) {\n    margin-bottom: 38px;\n\n    ul {\n      flex-direction: row;\n\n      li + li {\n        margin: 0 0 0 30px;\n      }\n    }\n  }\n"], ["\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  right: 0;\n\n  ul {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n\n    li {\n      list-style: none;\n\n      font-size: 14px;\n\n      & + li {\n        margin: 10px 0 0;\n      }\n\n      a {\n        text-decoration: none;\n        color: #393c41;\n\n        &:hover {\n          color: #000;\n        }\n      }\n    }\n  }\n\n  margin-bottom: 30px;\n\n  @media (min-width: 600px) {\n    margin-bottom: 38px;\n\n    ul {\n      flex-direction: row;\n\n      li + li {\n        margin: 0 0 0 30px;\n      }\n    }\n  }\n"])));
+var templateObject_1, templateObject_2, templateObject_3, templateObject_4, templateObject_5;
