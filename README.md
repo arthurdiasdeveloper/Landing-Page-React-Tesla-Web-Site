@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts and Screenshots
 
-![Alt text](ScreenShots/00.png?raw=true  "Page Start")
+
 ![Alt text](ScreenShots/01.png?raw=true  "Second Page")
 ![Alt text](ScreenShots/02.png?raw=true  "Tree Page")
 ![Alt text](ScreenShots/03.png?raw=true  "Four Page")
